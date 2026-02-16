@@ -1,0 +1,81 @@
+/* Main Container */
+.chat-container {
+  height: 100%;
+  background: #f4f6f9;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+/* Header */
+.chat-header {
+  padding: 20px;
+  background: #ffffff;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.chat-header h3 {
+  margin: 0;
+}
+
+.chat-subtitle {
+  font-size: 13px;
+  color: #666;
+}
+
+/* Body */
+.chat-body {
+  padding: 20px;
+  flex: 1;
+}
+
+/* Example Box */
+.chat-example {
+  background: #ffffff;
+  padding: 15px;
+  border-radius: 8px;
+  font-size: 13px;
+  color: #555;
+  border: 1px solid #e0e0e0;
+}
+
+/* Success Message */
+.chat-success {
+  margin-top: 20px;
+  padding: 12px;
+  border-radius: 6px;
+  background-color: #d4edda;
+  color: #155724;
+  font-size: 14px;
+}
+
+/* Input Area */
+.chat-input-area {
+  padding: 15px;
+  background: #ffffff;
+  border-top: 1px solid #e0e0e0;
+  display: flex;
+  gap: 10px;
+}
+
+.chat-input {
+  flex: 1;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.chat-button {
+  padding: 10px 18px;
+  border-radius: 6px;
+  border: none;
+  background-color: #28a745;
+  color: #ffffff;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.chat-button:hover {
+  background-color: #218838;
+}

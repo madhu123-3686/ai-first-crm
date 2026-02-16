@@ -1,0 +1,45 @@
+# =========================
+# 🔹 OS Files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# 🔹 VS Code
+# =========================
+.vscode/
+
+# =========================
+# 🔹 Backend (Python)
+# =========================
+backend/venv/
+backend/__pycache__/
+backend/*.pyc
+backend/*.pyo
+backend/*.pyd
+backend/.env
+backend/pyvenv.cfg
+
+# Python cache (global)
+__pycache__/
+*.pyc
+
+# =========================
+# 🔹 Frontend (React)
+# =========================
+frontend/node_modules/
+frontend/build/
+
+# =========================
+# 🔹 Logs
+# =========================
+*.log
+
+# =========================
+# 🔹 Environment Files
+# =========================
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
